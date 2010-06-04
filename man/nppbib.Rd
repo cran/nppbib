@@ -51,7 +51,7 @@
 }
 \examples{
  # Analyse the sample data set provided with this package:
- nppbib('nppbib/extdata/sm6.txt')
+ nppbib(system.file('extdata', 'sm6.txt', package='nppbib'))
 }
 \keyword{htest}
 \keyword{design}
