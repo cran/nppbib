@@ -13,10 +13,11 @@
 }
 \details{
  This package implements the nonparametric statistical test for rank or score data from
- partially-balanced imcomplete block-design experiments described in the submitted paper by
- DJ Best, JCW Rayner and David Allingham, 2010.  It reads a dataset from a plain-text file
- and returns a p-value, as well as other values of interest.  If the file contains scores,
- these are converted to ranks for the analysis.  Ties are allowed.
+ partially-balanced imcomplete block-design experiments described in the paper by
+ DJ Best, JCW Rayner and David Allingham, (Journal of Sensory Studies, 2011).  It reads
+ a dataset from a plain-text file and returns a p-value, as well as other values of
+ interest.  If the file contains scores, these are converted to ranks for the analysis.  Ties
+ are allowed.
 
  \bold{Data format:}
 
@@ -41,8 +42,9 @@
  \item{$pvalue}{the p-value for the null hypothesis that there exist no pairwise differences between products.}
 }
 \references{
- ``A Statistical Test for Ranking Data from Partially-Balanced Incomplete Block
- Designs'', Best, D.J., Rayner, J.C.W. and Allingham, David. Submitted, 2010.
+ ``A Statistical Test for Ranking Data from Partially-Balanced Incomplete
+ Block Designs'', Best, D.J., Rayner, J.C.W. and Allingham, David. Journal of Sensory Studies,
+ 26(1): 81--84, 2011.
 }
 \author{
  Allingham, David \email{David.Allingham@newcastle.edu.au}
