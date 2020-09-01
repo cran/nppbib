@@ -1,14 +1,15 @@
 Package: nppbib
-Version: 1.1-0
-Date: 2019-08-29
+Version: 1.2-0
+Date: 2020-09-01
 Title: Nonparametric Partially-Balanced Incomplete Block Design
         Analysis
 Author: David Allingham, D.J. Best
 Maintainer: David Allingham <David.Allingham@newcastle.edu.au>
-Description: Implements a nonparametric statistical test for rank or score data from partially-balanced incomplete block-design experiments.
-License: GPL (>= 2)
-URL: http://carma.newcastle.edu.au/davida/
+Description: Implements a nonparametric statistical test for rank or score data
+ from partially-balanced incomplete block-design experiments.
+License: GPL-3
+URL: https://github.com/dalling1
 NeedsCompilation: no
-Packaged: 2019-08-29 09:52:28 UTC; davida
+Packaged: 2020-09-01 02:29:02 UTC; davida
 Repository: CRAN
-Date/Publication: 2019-08-30 04:20:14 UTC
+Date/Publication: 2020-09-01 09:50:17 UTC

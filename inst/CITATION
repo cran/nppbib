@@ -1,6 +1,6 @@
  citHeader("To cite package 'nppbib' in publications use:")
      
-     year <- sub("-.*","",meta$Date)
+     year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date)
      vers <- paste("R package version", meta$Version)
      
      citEntry(entry="Manual",

@@ -70,7 +70,7 @@ nppbib  <-  function (datafilename){
  pValue <- 1-pchisq(SM,Nproducts-1)
 
 ### Return some variables of interest:
- list(
+ returnoutput = list(
   Nproducts=Nproducts,
   Njudges=Njudges,
   Nperjudgement=Nperjudgement,
@@ -82,4 +82,5 @@ nppbib  <-  function (datafilename){
   pValue=pValue
  )
 
+ return(returnoutput)
 } ### end of function
